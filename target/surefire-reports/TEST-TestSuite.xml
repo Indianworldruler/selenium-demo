@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="140.494" tests="9" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/parthsahani/Desktop/software testing /nov16/selenium-demo/target/test-classes:/Users/parthsahani/Desktop/software testing /nov16/selenium-demo/target/classes:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-java/4.38.0/selenium-java-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-api/4.38.0/selenium-api-4.38.0.jar:/Users/parthsahani/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.38.0/selenium-chrome-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.38.0/selenium-chromium-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-json/4.38.0/selenium-json-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.38.0/selenium-manager-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v140/4.38.0/selenium-devtools-v140-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.38.0/selenium-devtools-v141-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.38.0/selenium-devtools-v142-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.38.0/selenium-edge-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.38.0/selenium-firefox-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-http/4.38.0/selenium-http-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.38.0/selenium-ie-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.38.0/selenium-remote-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/parthsahani/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/parthsahani/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/parthsahani/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/parthsahani/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-api/1.55.0/opentelemetry-api-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-context/1.55.0/opentelemetry-context-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-common/1.55.0/opentelemetry-common-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.55.0/opentelemetry-exporter-logging-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.55.0/opentelemetry-sdk-common-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.55.0/opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.55.0/opentelemetry-sdk-extension-autoconfigure-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.55.0/opentelemetry-sdk-trace-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.55.0/opentelemetry-sdk-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.55.0/opentelemetry-sdk-metrics-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.55.0/opentelemetry-sdk-logs-1.55.0.jar:/Users/parthsahani/.m2/repository/net/bytebuddy/byte-buddy/1.17.8/byte-buddy-1.17.8.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-os/4.38.0/selenium-os-4.38.0.jar:/Users/parthsahani/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.38.0/selenium-safari-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-support/4.38.0/selenium-support-4.38.0.jar:/Users/parthsahani/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/parthsahani/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/parthsahani/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/parthsahani/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/parthsahani/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/parthsahani/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/parthsahani/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/parthsahani/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/parthsahani/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/parthsahani/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/parthsahani/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.2/log4j-api-2.25.2.jar:/Users/parthsahani/.m2/repository/org/apache/logging/log4j/log4j-core/2.25.2/log4j-core-2.25.2.jar:/Users/parthsahani/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.2/log4j-slf4j2-impl-2.25.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/parthsahani/Desktop/software testing /nov16/selenium-demo/target/surefire/surefirebooter-20261116154407549_3.jar /Users/parthsahani/Desktop/software testing /nov16/selenium-demo/target/surefire 2026-11-16T15-44-07_492-jvmRun1 surefire-20261116154407549_1tmp surefire_0-20261116154407549_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/parthsahani/Desktop/software testing /nov16/selenium-demo/target/test-classes:/Users/parthsahani/Desktop/software testing /nov16/selenium-demo/target/classes:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-java/4.38.0/selenium-java-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-api/4.38.0/selenium-api-4.38.0.jar:/Users/parthsahani/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.38.0/selenium-chrome-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.38.0/selenium-chromium-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-json/4.38.0/selenium-json-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.38.0/selenium-manager-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v140/4.38.0/selenium-devtools-v140-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.38.0/selenium-devtools-v141-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.38.0/selenium-devtools-v142-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.38.0/selenium-edge-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.38.0/selenium-firefox-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-http/4.38.0/selenium-http-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.38.0/selenium-ie-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.38.0/selenium-remote-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/parthsahani/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/parthsahani/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/parthsahani/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/parthsahani/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-api/1.55.0/opentelemetry-api-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-context/1.55.0/opentelemetry-context-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-common/1.55.0/opentelemetry-common-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.55.0/opentelemetry-exporter-logging-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.55.0/opentelemetry-sdk-common-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.55.0/opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.55.0/opentelemetry-sdk-extension-autoconfigure-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.55.0/opentelemetry-sdk-trace-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.55.0/opentelemetry-sdk-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.55.0/opentelemetry-sdk-metrics-1.55.0.jar:/Users/parthsahani/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.55.0/opentelemetry-sdk-logs-1.55.0.jar:/Users/parthsahani/.m2/repository/net/bytebuddy/byte-buddy/1.17.8/byte-buddy-1.17.8.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-os/4.38.0/selenium-os-4.38.0.jar:/Users/parthsahani/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.38.0/selenium-safari-driver-4.38.0.jar:/Users/parthsahani/.m2/repository/org/seleniumhq/selenium/selenium-support/4.38.0/selenium-support-4.38.0.jar:/Users/parthsahani/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/parthsahani/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/parthsahani/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/parthsahani/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/parthsahani/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/parthsahani/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/parthsahani/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/parthsahani/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/parthsahani/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/parthsahani/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/parthsahani/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.2/log4j-api-2.25.2.jar:/Users/parthsahani/.m2/repository/org/apache/logging/log4j/log4j-core/2.25.2/log4j-core-2.25.2.jar:/Users/parthsahani/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.2/log4j-slf4j2-impl-2.25.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/parthsahani"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/parthsahani/Desktop/software testing /nov16/selenium-demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/parthsahani/Desktop/software testing /nov16/selenium-demo/target/surefire/surefirebooter-20261116154407549_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="parthsahani"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/parthsahani/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/rr/t6xy46wn3xjb_5ftmgsh_m8m0000gn/T/"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/parthsahani/Desktop/software testing /nov16/selenium-demo"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/parthsahani/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="validLoginTest" classname="com.itm.tests.LoginTest" time="9.798">
+    <system-out><![CDATA[15:44:07 INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+15:44:17 INFO  com.itm.listeners.TestListener - START: validLoginTest
+15:44:27 INFO  com.itm.listeners.TestListener - PASS: validLoginTest
+]]></system-out>
+    <system-err><![CDATA[Nov 16, 2026 3:44:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 16, 2026 3:44:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 157.0.8103.51. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="invalidPasswordTest" classname="com.itm.tests.LoginTest" time="10.265">
+    <system-out><![CDATA[15:44:30 INFO  com.itm.listeners.TestListener - START: invalidPasswordTest
+15:44:40 INFO  com.itm.listeners.TestListener - PASS: invalidPasswordTest
+]]></system-out>
+  </testcase>
+  <testcase name="emptyUsernameTest" classname="com.itm.tests.LoginTest" time="7.822">
+    <system-out><![CDATA[15:44:44 INFO  com.itm.listeners.TestListener - START: emptyUsernameTest
+15:44:52 INFO  com.itm.listeners.TestListener - PASS: emptyUsernameTest
+]]></system-out>
+  </testcase>
+  <testcase name="emptyPasswordTest" classname="com.itm.tests.LoginTest" time="8.014">
+    <system-out><![CDATA[15:44:55 INFO  com.itm.listeners.TestListener - START: emptyPasswordTest
+15:45:03 INFO  com.itm.listeners.TestListener - PASS: emptyPasswordTest
+]]></system-out>
+  </testcase>
+  <testcase name="lockedUserTest" classname="com.itm.tests.LoginTest" time="10.398">
+    <system-out><![CDATA[15:45:06 INFO  com.itm.listeners.TestListener - START: lockedUserTest
+15:45:17 INFO  com.itm.listeners.TestListener - PASS: lockedUserTest
+]]></system-out>
+  </testcase>
+  <testcase name="passwordMaskingTest" classname="com.itm.tests.LoginTest" time="3.509">
+    <system-out><![CDATA[15:45:20 INFO  com.itm.listeners.TestListener - START: passwordMaskingTest
+15:45:24 INFO  com.itm.listeners.TestListener - PASS: passwordMaskingTest
+]]></system-out>
+  </testcase>
+  <testcase name="negativeLoginTest" classname="com.itm.tests.LoginTest" time="10.234">
+    <system-out><![CDATA[15:45:27 INFO  com.itm.listeners.TestListener - START: negativeLoginTest
+15:45:38 INFO  com.itm.listeners.TestListener - PASS: negativeLoginTest
+]]></system-out>
+  </testcase>
+  <testcase name="verifyInvalidLogin" classname="com.itm.tests.NegativeLoginTest" time="9.52">
+    <system-out><![CDATA[15:45:41 INFO  com.itm.listeners.TestListener - START: verifyInvalidLogin
+15:45:51 INFO  com.itm.listeners.TestListener - PASS: verifyInvalidLogin
+]]></system-out>
+  </testcase>
+  <testcase name="verifyCheckoutFlow" classname="com.itm.tests.CheckoutTest" time="27.774">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.className: shopping_cart_badge (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;23.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.51, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: /var/folders/rr/t6xy46wn3xj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55586}, goog:processID: 84183, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55586/devtoo..., se:cdpVersion: 157.0.8103.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 53992da120cdaf2ddd10f08fa3d6aa49" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.className: shopping_cart_badge (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.51, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: /var/folders/rr/t6xy46wn3xj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55586}, goog:processID: 84183, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55586/devtoo..., se:cdpVersion: 157.0.8103.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53992da120cdaf2ddd10f08fa3d6aa49
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.itm.utils.WaitUtil.visible(WaitUtil.java:18)
+	at com.itm.pages.InventoryPage.addBackpackToCart(InventoryPage.java:38)
+	at com.itm.tests.CheckoutTest.verifyCheckoutFlow(CheckoutTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[15:45:54 INFO  com.itm.listeners.TestListener - START: verifyCheckoutFlow
+15:46:22 ERROR com.itm.listeners.TestListener - FAIL: verifyCheckoutFlow
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: shopping_cart_badge (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.51, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: /var/folders/rr/t6xy46wn3xj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55586}, goog:processID: 84183, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55586/devtoo..., se:cdpVersion: 157.0.8103.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53992da120cdaf2ddd10f08fa3d6aa49
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.itm.utils.WaitUtil.visible(WaitUtil.java:18)
+	at com.itm.pages.InventoryPage.addBackpackToCart(InventoryPage.java:38)
+	at com.itm.tests.CheckoutTest.verifyCheckoutFlow(CheckoutTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+15:46:22 INFO  com.itm.listeners.TestListener - Failure screenshot: /Users/parthsahani/Desktop/software testing /nov16/selenium-demo/screenshots/CheckoutTest_verifyCheckoutFlow_20261116_154622_106.png
+]]></system-out>
+  </testcase>
+</testsuite>
